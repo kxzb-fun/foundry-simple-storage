@@ -28,3 +28,10 @@ anvil
 # step2
 forge script script/DeploySimpleStorage.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key <your-private-key>
 ```
+
+## Use Cast
+
+```shell
+cast --to-base 0x716f6 dec
+# 464630
+```
