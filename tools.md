@@ -64,3 +64,9 @@ forge script script/DeploySimpleStorage.s.sol:DeploySimpleStorage --rpc-url http
 ```
 
 [REC-2335](https://eips.ethereum.org/EIPS/eip-2335)
+
+## Use thirdweb deploy
+
+```shell
+npx thirdweb deploy
+```
