@@ -70,3 +70,20 @@ forge script script/DeploySimpleStorage.s.sol:DeploySimpleStorage --rpc-url http
 ```shell
 npx thirdweb deploy
 ```
+
+## cast send
+
+```shell
+cast send 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 "store(uint256)" 988 --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+```
+
+## cast call
+
+```shell
+cast call 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 "retrieve()"
+```
+
+```shell
+# cast --to-base <hex value copied> decimal
+cast --to-base <hex> dec # hex 0x00000000000000000000000000000000000000000000000000000000000003dc 988
+```
