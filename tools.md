@@ -20,13 +20,19 @@ forge create SimpleStorage --rpc-url http://127.0.0.1:8545 --interactive
 history -c
 ```
 
-## Broadcast
+## Broadcast(Deploy)
 
 ```shell
 # step1
 anvil
 # step2
 forge script script/DeploySimpleStorage.s.sol --rpc-url http://127.0.0.1:8545 --broadcast --private-key <your-private-key>
+```
+
+to deploy smart contract use Ganache
+
+```shell
+forge script script/DeploySimpleStorage.s.sol --broadcast --rpc-url http://127.0.0.1:7545 --private-key $GANACHE_PRIVATE_KEY
 ```
 
 ## Use Cast
